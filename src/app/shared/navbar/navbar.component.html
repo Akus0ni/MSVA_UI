@@ -1,0 +1,28 @@
+<div class="topnav" id="myTopnav">
+    <a routerLinkActive="list-item-active active" routerLink="/">Home</a>
+    <!-- <a href="events.html" class="blink_me">Time Table</a> -->
+    <a routerLinkActive="list-item-active active" routerLink="/circulars" class="blink_me">Circulars</a>
+    <a href="#">Calendar</a>
+    <a href="#" class="blink_me">News</a>
+    <a href="gallery.html">Gallery</a>
+    <!-- <a href="organizers.html">Organizers</a> -->
+    <!-- <a href="committee.html">Sports Committee</a> -->
+    <a href="winners.html">Results</a>
+    <a href="members.html">Fixtures</a>
+    <!-- <a routerLinkActive="list-item-active active" routerLink="/admin">Admin</a> -->
+    <a href="#">Volleyball Rules</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
